@@ -1,0 +1,57 @@
+FILE_UTIL        
+
+//public bool getTotalMoney_Month(string fileName, ref double totalMonth)
+        //{
+        //    try
+        //    {
+        //        FileStream fs = new FileStream(fileName, FileMode.Open);
+        //        BinaryFormatter bf = new BinaryFormatter();
+        //        totalMonth = (double)bf.Deserialize(fs);
+        //        fs.Close();
+        //        return true;
+        //    }
+        //    catch (Exception)
+        //    {
+
+        //        return false;
+        //    }
+        //}
+        //public bool setTotalMoney_Month(string fileName, double totalMonth)
+        //{
+        //    try
+        //    {
+        //        DateTime dp = DateTime.Now;
+        //        Directory.CreateDirectory(@dp.Year + "Library/" + dp.Month);
+        //        FileStream fs = new FileStream(dp.Year + "Library/" + dp.Month +
+        //            "/TotalMonth" + dp.Month + fileName, FileMode.Create);
+        //        BinaryFormatter bf = new BinaryFormatter();
+        //        double tmp = 0;
+        //        getTotalMoney_Month(fileName, ref tmp);
+        //        totalMonth += tmp;
+        //        bf.Serialize(fs, totalMonth);
+        //        fs.Close();
+        //        return true;
+        //    }
+        //    catch (Exception)
+        //    {
+
+        //        return false;
+        //    }
+        //}
+
+	Revenue_BUS
+
+        //public void WriteTotalRevenue(string fileName)
+        //{
+        //    handleFile = new File_UTIL();
+        //    handleFile.setTotalMoney_Month(fileName, totalMoney_Month);
+        //}
+        //public double readTotalRevenue(string fileName)
+        //{
+        //    handleFile = new File_UTIL();
+        //    double tt = 0;
+        //    handleFile.getTotalMoney_Month(fileName, ref tt);
+        //    return tt;
+        //}
+FrmOrder
+//totalMoneyLoad = listRevenue.readTotalRevenue(dt.Year + "Library/" + dt.Month + "/totalMonth" + dt.Month + fileNameLibraryRevenue);
